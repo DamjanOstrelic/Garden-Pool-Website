@@ -41,7 +41,7 @@ async function getLiveStats() {
 }
 
 $.getJSON(
-  "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=Ada&tsyms=BTC,USD,EUR&api_key=da5c2209128482ded3f5dabbe7260d828b351b7a62c6fc18a5f41fc8f336f12e",
+  "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=Ada&tsyms=BTC,USD,EUR&api_key=fbfd287088169b4ee82171006936036a89faa8a8749c211e673a16565041f9ae",
   (data) => {
     $(".price-holder").html(
       `<a class="api-link" href="https://min-api.cryptocompare.com/" target="_blank">${data.RAW.ADA.USD.PRICE} USD</a>`
