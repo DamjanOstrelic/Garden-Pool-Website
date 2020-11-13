@@ -215,7 +215,7 @@ iframe {
   top: 200px;
   /* transform: translateX(-178px); */
   transition: 0.3s all;
-  transform: translateX(-180px);
+  transform: translateX(-250px);
   z-index: 1000;
 }
 
@@ -236,7 +236,7 @@ iframe {
   position: absolute;
   top: 70px;
   cursor: pointer;
-  left: 180px;
+  left: 250px;
   width: 48px;
   border-radius: 44px;
   height: 48px;
