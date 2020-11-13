@@ -11,6 +11,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://s3-eu-west-1.amazonaws.com/bitpanda-assets/widgets/widget.min.js" async></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;1,400;1,900&display=swap"
       rel="stylesheet"
@@ -53,17 +54,9 @@
       </div>
     </div>
 
+    
     <div class="price-container">
-      <div class="grid-header">Current Price</div>
-      <div class="individual-info current-price price-holder"></div>
-      <div class="grid-header">Graph (7 days)</div>
-      <div class="graph-container individual-info current-price">
-        <img
-          src="https://s2.coinmarketcap.com/generated/sparklines/web/7d/usd/2010.png"
-          class="ada-graph"
-          alt="ada graph"
-        />
-      </div>
+      <div class="bitpanda-widget bitpanda-ADA theme-default" data-fiat="USD" data-coin="ADA" data-ref="551365214435137115"></div>
       <img class="ada-button" src="/src/adaSymbol.png" alt="Ada" />
     </div>
 
@@ -95,6 +88,7 @@
             </p>
           </div>
         </div>
+        
 
         <div class="individual-card pool-details">
           <div>
