@@ -17,8 +17,12 @@
 		}
 	},
 	"my-pool-ids": {
-		"0": "d5b90a198d2411b5c82fbdfee5f94b86de49a8589bfa7720b9de358f"
+		"0": "d5b90a198d2411b5c82fbdfee5f94b86de49a8589bfa7720b9de358f",
+		"1": "7c6b4a731eec6bef00e16ec4c990e7a817f61597dab1033006563ad7"
 	},
+	"when-satured-then-recommend": {
+        "0": "7c6b4a731eec6bef00e16ec4c990e7a817f61597dab1033006563ad7",
+   	},
 	"telegram-admin-handle": {
 		"0": "Dostrelith"
 	}
